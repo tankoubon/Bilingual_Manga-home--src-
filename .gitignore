@@ -1,0 +1,6 @@
+ocr/
+ipfs/
+.svelte-kit/
+manga_cover/
+node_modules/
+wp-content/
