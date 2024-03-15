@@ -292,12 +292,15 @@
 
 	
 	const img_wid=(e)=>{
-		
+
 		let srce = e.srcElement.src;
+		/*		
 		e.srcElement.src="/loader.svg";
 
 		setTimeout(
 		()=>{refreshImage(e.srcElement,srce);},delayml);
+		*/
+		e.srcElement.alt = `Error loading ${srce}`
 	};
 	
 	
